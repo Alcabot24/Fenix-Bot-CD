@@ -11,11 +11,8 @@ global.botNumercode = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['50258115623', '𝗖𝗥𝗘𝗔𝗗𝗢𝗥𝗔', true],
-  ['50250101139', 'Fenix- colaborador', true],
-  ['14077384440', 'Owner', true],
-  ['19042018926', 'creador', true],
-  ['50253077417'], ['51986548489']
+  ['528241050228', '⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️', true],
+  
 ];
 
 global.suittag = ['50258115623'];
@@ -36,18 +33,18 @@ global.creator = `𝐖𝐈𝐋𝐒𝐌𝐀𝐂`
 global.pegatina = `┏━━━━━━°❀•° :°: °•❀°━━━━━━┓\n𝐁𝐎𝐓 𝐔𝐒𝐀𝐃𝐎: 𝗙𝗘𝗡𝗜𝗫-𝗕𝗢𝗧-𝗖𝗗\n╔═════ °❀•°✮°•❀° ══════╗\n 𝑃𝑅𝑂𝑃𝐼𝐸𝑇𝐴𝑅𝐼𝑂(𝐀) 𝗪𝗜𝗟𝗦𝗠𝗔𝗖\n╚═════ °❀•°✮°•❀° ══════╝`;
 global.packname = '𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷';
 global.author = `𝐵𝑦\n𝗪\n𝗜\n𝗟\n𝗦\n𝗠\n𝗔\n𝗖\n😻`;
-global.wm = '𝑭𝑬𝑵𝑰𝑿-𝑩𝑶𝑻-𝑪𝑫';
-global.titulowm = '✨ 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷 ✨';
-global.titulowm2 = `乂 𝑭𝑬𝑵𝑰𝑿-𝑩𝑶𝑻-𝑪𝑫  乂`
+global.wm = '⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️';
+global.titulowm = '⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️';
+global.titulowm2 = `⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️ 乂`
 global.igfg = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
 global.wait = '*⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰ ²⁰ %*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
-global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
-global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
-global.imagen4 = fs.readFileSync('./Menu.png');
-global.imagen5 = fs.readFileSync('./src/+18.jpg');
-global.imagen6 = fs.readFileSync('./Menu3.png');
+global.imagen2 = fs.readFileSync('./alca.png');
+global.imagen3 = fs.readFileSync('./alca.png');
+global.imagen4 = fs.readFileSync('./alca.png');
+global.imagen5 = fs.readFileSync('./alca.png');
+global.imagen6 = fs.readFileSync('./alca.png');
 
 global.mods = [];
 
