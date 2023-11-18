@@ -7,45 +7,30 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botNumercode = ""
-global.confirmCode = ""
-
 global.owner = [
-  ['528241050228', '⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️', true],
-  
+  ['528241050228', '⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️ ', true],
+  ['50576390682', '✦𝙲𝚄𝚂𝚃𝙾𝙼𝙴𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃✦', true],
+  ['5217294888993'],['573106040746'],['51929972576'],['5217774519212'],
 ];
 
-global.suittag = ['50258115623'];
-global.prems = ['50250101139'];
+global.suittag = ['51992004117'],['50576390682']
+global.prems = ['51992004127'],['50576390682']
 
-
-global.lenguajeWL = es //idioma de Fenix-Bot-CD 
-
-
-global.official = [
-["50258115623", 'CREADOR💋', 1],
-["50250101139", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹', 1], 
-["19042018926", '𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹', 1], 
-["14077384440", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹', 1], 
-["50253077417", 'Colaboradora oficial', 1]]
-
-global.creator = `𝐖𝐈𝐋𝐒𝐌𝐀𝐂`
-global.pegatina = `┏━━━━━━°❀•° :°: °•❀°━━━━━━┓\n𝐁𝐎𝐓 𝐔𝐒𝐀𝐃𝐎: 𝗙𝗘𝗡𝗜𝗫-𝗕𝗢𝗧-𝗖𝗗\n╔═════ °❀•°✮°•❀° ══════╗\n 𝑃𝑅𝑂𝑃𝐼𝐸𝑇𝐴𝑅𝐼𝑂(𝐀) 𝗪𝗜𝗟𝗦𝗠𝗔𝗖\n╚═════ °❀•°✮°•❀° ══════╝`;
-global.packname = '𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷';
-global.author = `𝐵𝑦\n𝗪\n𝗜\n𝗟\n𝗦\n𝗠\n𝗔\n𝗖\n😻`;
-global.wm = '⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️';
-global.titulowm = '⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️';
-global.titulowm2 = `⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧 ⭐️ 乂`
-global.igfg = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
-global.wait = '*⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰ ²⁰ %*'
+global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
+global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
+global.wm = '𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 ';
+global.titulowm = '👋 𝗔 𝗟 𝗖 𝗔 － 𝐁𝐎𝐓 👋';
+global.titulowm2 = ` 𝗔 𝗟 𝗖 𝗔 - 𝐁 𝐎 𝐓  `
+global.igfg = '✪𝐇𝐚𝐜𝐡𝐢𝐤𝐨 - 𝐁𝐨𝐭✪';
+global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./alca.png');
 global.imagen3 = fs.readFileSync('./alca.png');
 global.imagen4 = fs.readFileSync('./alca.png');
 global.imagen5 = fs.readFileSync('./alca.png');
-global.imagen6 = fs.readFileSync('./alca.png');
-
+global.imagen6= fs.readFileSync('./alca.png');
+global.imagen7= fs.readFileSync('./alca.png');
 global.mods = [];
 
 //* *******Tiempo***************
@@ -56,33 +41,33 @@ global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', yea
 global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
-//* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷`;
-global.gt = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
-global.mysticbot = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
-global.md = 'https://github.com/Wilsmac/Fenix-Bot-CD';
-global.mysticbot = 'https://github.com/Wilsmac/Fenix-Bot-CD';
-global.waitt = '⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰ ⁵⁰ %*';
-global.waittt = '⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰ ⁸⁰  %*';
-global.waitttt = '⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰▰ ¹⁰⁰ %*';
-global.nomorown = '50250101139';
+
+//****************************
+global.gt = '★𝙷𝚊𝚌𝚑𝚒𝚔𝚘-𝙱𝚘𝚝★';
+global.mysticbot = '★𝙷𝙰𝙲𝙷𝙸𝙺𝙾 - 𝙱𝙾𝚃★';
+global.md = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
+global.mysticbot = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
+global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
+global.nomorown = '51992004112', '50576390682';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
 global.cmenuf = '╰━═┅═━––––––๑\n';
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ';
+global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ';
 global.dmenut = '*❖─┅──┅〈*';
 global.dmenub = '*┊»*';
 global.dmenub2 = '*┊*';
 global.dmenuf = '*╰┅────────┅✦*';
-global.htjava = '𖤍';
+global.htjava = '⫹⫺';
 global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `𖤍 Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; // Asia/Jakarta
+global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; // Asia/Jakarta
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;// America/Los_Angeles
-global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
+global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./alca.png')}}};
 global.multiplier = 99;
 global.flaaa = [
   'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
@@ -92,8 +77,7 @@ global.flaaa = [
   'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=',
 ];
 //* ************************
-
-const file = fileURLToPath(import.meta.url);
+let file = fileURLToPath(import.meta.url);
 watchFile(file, () => {
   unwatchFile(file);
   console.log(chalk.redBright('Update \'config.js\''));
